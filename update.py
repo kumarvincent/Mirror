@@ -31,7 +31,7 @@ except TypeError:
 
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = "https://github.com/kumarvincent/Mirror"
+UPSTREAM_REPO = ""https://github.com/anasty17/mirror-leech-telegram-bot""
 UPSTREAM_BRANCH = 'master'
 
   
