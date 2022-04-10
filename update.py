@@ -33,13 +33,8 @@ load_dotenv('config.env', override=True)
 
 UPSTREAM_REPO = "https://github.com/kumarvincent/Mirror"
 UPSTREAM_BRANCH = 'master'
-try:
-    if len(UPSTREAM_REPO) == 0:
-       raise TypeError
-except TypeError:
-    UPSTREAM_REPO = "https://github.com/kumarvincent/Mirror"
 
-    UPSTREAM_BRANCH = 'master'
+  
 
 if ospath.exists('.git'):
     srun(["rm", "-rf", ".git"])
