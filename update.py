@@ -31,7 +31,7 @@ except TypeError:
 
 load_dotenv('config.env', override=True)
 
-UPSTREAM_REPO = environ.get('UPSTREAM_REPO')
+UPSTREAM_REPO = "https://github.com/kumarvincent/Mirror"
 UPSTREAM_BRANCH = 'master'
 try:
     if len(UPSTREAM_REPO) == 0:
